@@ -12,6 +12,26 @@ This is a prototype. It runs on your own computer with **synthetic data only** a
 
 > **No login.** The **Role Switcher** at the top of the page stands in for production authentication: pick a role and a stakeholder to see their view. The server listens on `127.0.0.1` only (your own computer) and has no authentication.
 
+## Screenshots
+
+One plugin, one battery record, a different view for each stakeholder. All data is synthetic.
+
+**EV owner:** health score, Impact score with the behaviors behind it, a recommended pathway labeled as decision support, and a one-click return offer.
+
+![EV owner view](docs/screenshots/01-owner-view.png)
+
+**Fleet operator:** quarterly replacement forecast, fleet ranked by health, and a state-of-health chart with flag-for-inspection and custody handover.
+
+![Fleet operator view](docs/screenshots/02-fleet-view.png)
+
+**Service partner:** module condition, service history, repair logging, and routing to a second-life provider or certified recycler.
+
+![Service partner view](docs/screenshots/03-service-partner-view.png)
+
+**Carmaker ESG officer:** Scope 3 Category 12 report built from recorded end-of-life outcomes, showing which batteries are *measured* versus *estimated*, with no owner identity anywhere.
+
+![ESG officer Scope 3 report](docs/screenshots/04-esg-scope3-report.png)
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) 20.19 or later (LTS recommended)
