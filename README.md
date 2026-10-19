@@ -1,12 +1,16 @@
 # Battery ReRoute
 
-Battery ReRoute is a prototype of a unified EV battery lifecycle data platform. It joins battery data held by carmakers, owners, fleets, service centers, second-life providers and recyclers into one record per battery (a digital twin). Each stakeholder sees a role-based view of that record through one embeddable plugin.
+Battery ReRoute is a prototype platform that helps EV batteries last longer, move to their next life at the right time, and give carmakers **measured** end-of-life emissions data instead of estimates.
 
-The platform:
+It brings each battery's data (battery passport, charging history, service history and health telemetry) into one shared record per battery, and uses that record in three linked steps:
 
-- nudges owners toward healthier charging, earlier repair and responsible return,
-- recommends each battery's next best pathway (continue use, inspect/repair, second-life review, certified recycling) as decision support,
-- records every end-of-life outcome so a carmaker can report **measured** GHG Protocol Scope 3 Category 12 data instead of estimates.
+1. **Extend the first life.** Personalized notifications encourage owners to adopt habits that extend battery life, such as healthier charging and timely servicing. An Impact score shows owners how their choices count.
+2. **Move on at the right time.** When the battery's health shows it has reached the end of its first life, the platform recommends its next cycle (repair, second-life use or certified recycling) and guides the handoff, supporting a **circular economy**.
+3. **Measure, don't estimate.** Because every handoff is recorded, carmakers can report **measured** GHG Protocol **Scope 3 Category 12** (end-of-life treatment of sold products) data instead of estimates.
+
+**Role-based access makes this work.** Each stakeholder (owner, fleet operator, service partner, second-life provider, recycler and carmaker ESG team) sees and contributes only the data relevant to them through one embeddable plugin, and owner data is shared only with the owner's consent.
+
+Pathway recommendations are decision support: certified specialists make the final safety and disposition call.
 
 This is a prototype. It runs on your own computer with **synthetic data only** and makes no calls to outside systems.
 
